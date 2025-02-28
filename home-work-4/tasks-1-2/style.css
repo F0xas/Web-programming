@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;  
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.table1{
+    width: 75%;
+}
+
+.table1 .col1, .col2, .col3{
+    width: 33.33%;
+}
+
+.cell56{
+    height: 200px;
+}
+
+.col4{
+    width: 28%;
+}
+.col3{
+    width: 60% ;
+}
+.table2{
+    width: 60%;
+}
+
+.inside{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;  
+}
+
+.inside-col3, .inside-col4{
+    height: 200px;
+}
+
+.inside-col4, .inside-col2, .inside-col3{
+    width: 33.33%;
+}

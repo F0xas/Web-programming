@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class = "table2">
+        <tr>
+            <td colspan="2" class = "col1">1-2</td>
+            <td class="col3">3</td> 
+        </tr>
+        <tr>
+            <td class="col4">4</td>
+            <td rowspan="2" colspan="2" class="container">
+                <table class="inside">
+                    <tr>
+                        <td class="inside-col1">1</td>
+                        <td rowspan="3" class="inside-col2">2-5-8</td>
+                        <td rowspan="2" class = "inside-col3">3-6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="inside-col4">4-7</td>
+                    </tr>
+                    <tr>
+                        <td class = "inside-col5">9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="col7">7</td>
+        </tr>
+    </table>
+</body>
+</html>
